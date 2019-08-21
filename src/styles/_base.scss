@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size : 62.5%; // 1rem = 10px; 10px/16px = 62,5%
+}
+
+body {
+    box-sizing: border-box;
+
+    section {
+        padding: 3rem 10rem;
+    }
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.picture {
+    height: 50rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -8,21 +8,18 @@ import Home from '../Home';
 import Services from '../Services';
 import Subscribe from '../Subscribe';
 
-
-
-
 class App extends Component {
     render() {
         return (
             <>
                 <Header />
+                <Home />
                 <About />
+                <Services />
+                <Gallery />
+                <Subscribe />
                 <Blog />
                 <Contact />
-                <Gallery />
-                <Home />
-                <Services />
-                <Subscribe />
             </>
         )
     }

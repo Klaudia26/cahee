@@ -1,7 +1,8 @@
 import React from 'react';
 import Item from './Components/Item';
+import './style.scss';
 
-function Header() {
+const Header = () => {
     const items = [
         {
             label: 'Home',
@@ -16,6 +17,10 @@ function Header() {
             href: '#services',
         },
         {
+            label: 'Subscribe',
+            href: '#subscribe',
+        },
+        {
             label: 'Gallery',
             href: '#gallery',
         },
@@ -27,15 +32,17 @@ function Header() {
             label: 'Contact',
             href: '#contact',
         },
-    ]
+    ];
+
     return (
-        <div className="Header">
-            <h4>Cahee</h4>
+        <header className="header flex-center">
+            <div className="header__logo">Cahee</div>
             <nav>
-                {items.map(item => <Item label={item.label} href={item.href} />)}
+                {items.map(item => <Item key={item.label} label={item.label} href={item.href} />)}
             </nav>
-        </div>
+        </header>
     )
 }
+
 export default Header;
 
