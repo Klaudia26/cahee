@@ -1,0 +1,33 @@
+.section-services {
+    background-color: #7cc5fe;
+
+    .picture {
+        background-image: url("../assets/img/purepng.png");
+        width: 75rem;
+        text-align: center;
+        line-height: 50rem;
+    }
+
+    .service {
+        background-color: #fff;
+        height: 6rem;
+        font-weight: 800;
+        font-size: 1.6rem;
+
+        &:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+
+        &__title {
+            padding: 2rem;
+        }
+
+        &__icon {
+            width: 7rem;
+            border-left: 1px solid #000;
+            font-size: 3rem;
+            text-align: center;
+            line-height: 6rem;
+        }
+    }
+}

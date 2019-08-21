@@ -1,0 +1,48 @@
+.section-gallery {
+    background-color: #ffff24;
+    text-align: center;
+
+    .paragraph {
+        text-align: center;
+    }
+
+    .gallery {
+        width: 83rem;
+        margin: 4rem auto;
+
+        display: grid;
+        grid-template-rows: repeat(2, 15rem) 20rem;
+        grid-template-columns: repeat(4, 20rem);
+        grid-gap: 1rem;
+
+        .pic {
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            &--1 {
+                background-image: url('../assets/img/photo-1.jpg');
+                grid-row: 1 / 3;
+                grid-column: 1 / 4;
+            }
+
+            &--2 {
+                background-image: url('../assets/img/photo-2.jpg');
+            }
+
+            &--3 {
+                background-image: url('../assets/img/photo-3.jpg');
+            }
+
+            &--4 {
+                background-image: url('../assets/img/photo-4.jpg');
+                grid-column: 1 / 3;
+            }
+
+            &--5 {
+                background-image: url('../assets/img/photo-5.jpg');
+                grid-column: 3 / 5;
+            }
+        }
+    }
+}
