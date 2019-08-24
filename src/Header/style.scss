@@ -1,0 +1,19 @@
+.header {
+    padding: 0 10rem;
+
+    &__logo {
+        font-family:  'Gabriela', serif ;
+        font-size: 5rem;
+    }
+    .nav-item {
+        margin-right: 3rem;
+        text-decoration: none;
+        color: black;
+        font-size: 2rem;
+        text-transform: uppercase;
+
+        &:hover {
+            border-top: 3px solid #FF4500;
+        }
+    }
+}

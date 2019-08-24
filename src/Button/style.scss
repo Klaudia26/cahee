@@ -1,0 +1,32 @@
+.btn {
+    font-family: 'Italiana', serif;
+    text-transform: uppercase;
+    color: #fff;
+    width: 14rem;
+    height: 4rem;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    box-shadow: 1px 1px 8px -3px rgba(0, 0, 0, 0.5);
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 3px 3px 10px -3px rgba(0, 0, 0, 0.5);
+    }
+
+    &--orange {
+        background-color: #FF4500;
+    }
+
+    &--blue {
+        background-color: #54a4e3;
+    }
+    
+    &--green {
+        background-color: #98d544;
+    }
+
+    &--red {
+        background-color: #f9062b;
+    }
+}
