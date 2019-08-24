@@ -2,6 +2,7 @@
   "name": "cahee",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yourusername.github.io/cahee",
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.4",
     "font-awesome": "^4.7.0",
